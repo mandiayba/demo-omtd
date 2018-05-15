@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:types="http:///fr/inra/maiage/bibliome/alvisnlp/bibliomefactory/modules/uima/types.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="8" sofa="1" begin="0" end="105" language="x-unspecified"/>
+    <types:DocumentProxy xmi:id="13" sofa="1" id="BB-cat+ner-607884" features="18" sections="24"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="[The infections from &quot;Serratia&quot; in the Hospital S. Camillo De Lellis of Roma (Italy) (author's transl)].&#10;"/>
+    <types:FeatureProxy xmi:id="18" key="set" value="train"/>
+    <types:SectionProxy xmi:id="24" sofa="1" begin="0" end="105" name="text" features="" layers="41 55 69 76" relations="88 116 148 180"/>
+    <types:LayerProxy xmi:id="41" sofa="1" name="Title" annotations="45"/>
+    <cas:FSArray xmi:id="45" elements="34"/>
+    <types:AnnotationProxy xmi:id="34" sofa="1" begin="0" end="104" features=""/>
+    <types:LayerProxy xmi:id="55" sofa="1" name="Bacteria" annotations="59"/>
+    <cas:FSArray xmi:id="59" elements="48"/>
+    <types:AnnotationProxy xmi:id="48" sofa="1" begin="22" end="30" features=""/>
+    <types:LayerProxy xmi:id="69" sofa="1" name="Habitat" annotations="73"/>
+    <cas:FSArray xmi:id="73" elements="62"/>
+    <types:AnnotationProxy xmi:id="62" sofa="1" begin="39" end="68" features=""/>
+    <types:LayerProxy xmi:id="76" sofa="1" name="regexp" annotations="80"/>
+    <cas:FSArray xmi:id="80" elements=""/>
+    <types:RelationProxy xmi:id="88" sofa="1" features="93" tuples="99" name="Title"/>
+    <types:FeatureProxy xmi:id="93" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="99" sofa="1" features="103 106" arguments="192"/>
+    <types:FeatureProxy xmi:id="103" key="id" value="T1"/>
+    <types:FeatureProxy xmi:id="106" key="type" value="Title"/>
+    <cas:FSArray xmi:id="192" elements="189"/>
+    <types:ArgumentProxy xmi:id="189" role="frag0" argument="34"/>
+    <types:RelationProxy xmi:id="116" sofa="1" features="121" tuples="127" name="Bacteria"/>
+    <types:FeatureProxy xmi:id="121" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="127" sofa="1" features="131 134 137" arguments="198"/>
+    <types:FeatureProxy xmi:id="131" key="id" value="T2"/>
+    <types:FeatureProxy xmi:id="134" key="type" value="Bacteria"/>
+    <types:FeatureProxy xmi:id="137" key="NCBI_Taxonomy" value="613"/>
+    <cas:FSArray xmi:id="198" elements="195"/>
+    <types:ArgumentProxy xmi:id="195" role="frag0" argument="48"/>
+    <types:RelationProxy xmi:id="148" sofa="1" features="153" tuples="159" name="Habitat"/>
+    <types:FeatureProxy xmi:id="153" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="159" sofa="1" features="163 166 169" arguments="204"/>
+    <types:FeatureProxy xmi:id="163" key="id" value="T3"/>
+    <types:FeatureProxy xmi:id="166" key="type" value="Habitat"/>
+    <types:FeatureProxy xmi:id="169" key="OntoBiotope" value="OBT:001835"/>
+    <cas:FSArray xmi:id="204" elements="201"/>
+    <types:ArgumentProxy xmi:id="201" role="frag0" argument="62"/>
+    <types:RelationProxy xmi:id="180" sofa="1" features="" tuples="" name="equiv"/>
+    <cas:View sofa="1" members="8 13"/>
+</xmi:XMI>

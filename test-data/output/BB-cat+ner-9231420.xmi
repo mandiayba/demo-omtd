@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:types="http:///fr/inra/maiage/bibliome/alvisnlp/bibliomefactory/modules/uima/types.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="8" sofa="1" begin="0" end="994" language="x-unspecified"/>
+    <types:DocumentProxy xmi:id="13" sofa="1" id="BB-cat+ner-9231420" features="18" sections="24"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Neuraminidase (sialidase) activity of Haemophilus parasuis.&#10;Neuraminidase (sialidase), a potential virulence factor in bacteria, was demonstrated in Haemophilus parasuis, an invasive swine pathogen, but not in four other pathogens of the Pasteurellaceae family: H. influenzae, H. somnus, H. paragallinarum, or Actinobacillus pleuropneumoniae. H. parasuis neuraminidase had an acidic pH optimum and a specificity for several substrates also cleaved by other bacterial neuraminidases. Similar to the neuraminidase of Pasteurella multocida, H. parasuis neuraminidase was cell associated and did not require divalent cations for activity. Exogenous sialic acid added to growth medium of H. parasuis was cleared after a lag of about 10 h and these cultures grew to a greater final density than cultures without added sialic acid, indicating that exogenous sialic acid is metabolized. The role of sialidase in providing nutrients to H. parasuis may be an important factor in its obligate parasitism.&#10;"/>
+    <types:FeatureProxy xmi:id="18" key="set" value="test"/>
+    <types:SectionProxy xmi:id="24" sofa="1" begin="0" end="994" name="text" features="" layers="41 55 83" relations="97 125 153"/>
+    <types:LayerProxy xmi:id="41" sofa="1" name="Title" annotations="45"/>
+    <cas:FSArray xmi:id="45" elements="34"/>
+    <types:AnnotationProxy xmi:id="34" sofa="1" begin="0" end="59" features=""/>
+    <types:LayerProxy xmi:id="55" sofa="1" name="Paragraph" annotations="59"/>
+    <cas:FSArray xmi:id="59" elements="48"/>
+    <types:AnnotationProxy xmi:id="48" sofa="1" begin="60" end="993" features=""/>
+    <types:LayerProxy xmi:id="83" sofa="1" name="regexp" annotations="87"/>
+    <cas:FSArray xmi:id="87" elements="62 69 76"/>
+    <types:AnnotationProxy xmi:id="62" sofa="1" begin="119" end="123" features=""/>
+    <types:AnnotationProxy xmi:id="69" sofa="1" begin="316" end="319" features=""/>
+    <types:AnnotationProxy xmi:id="76" sofa="1" begin="457" end="461" features=""/>
+    <types:RelationProxy xmi:id="97" sofa="1" features="102" tuples="108" name="Title"/>
+    <types:FeatureProxy xmi:id="102" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="108" sofa="1" features="112 115" arguments="165"/>
+    <types:FeatureProxy xmi:id="112" key="id" value="T1"/>
+    <types:FeatureProxy xmi:id="115" key="type" value="Title"/>
+    <cas:FSArray xmi:id="165" elements="162"/>
+    <types:ArgumentProxy xmi:id="162" role="frag0" argument="34"/>
+    <types:RelationProxy xmi:id="125" sofa="1" features="130" tuples="136" name="Paragraph"/>
+    <types:FeatureProxy xmi:id="130" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="136" sofa="1" features="140 143" arguments="171"/>
+    <types:FeatureProxy xmi:id="140" key="id" value="T2"/>
+    <types:FeatureProxy xmi:id="143" key="type" value="Paragraph"/>
+    <cas:FSArray xmi:id="171" elements="168"/>
+    <types:ArgumentProxy xmi:id="168" role="frag0" argument="48"/>
+    <types:RelationProxy xmi:id="153" sofa="1" features="" tuples="" name="equiv"/>
+    <cas:View sofa="1" members="8 13"/>
+</xmi:XMI>

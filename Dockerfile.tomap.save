@@ -1,0 +1,6 @@
+FROM bibliome/alvisengine
+MAINTAINER Mouhamadou Ba <mouhamadou.ba@inra.fr>
+
+WORKDIR /alvisnlp
+
+COPY plans/ /alvisnlp/

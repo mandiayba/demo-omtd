@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:types="http:///fr/inra/maiage/bibliome/alvisnlp/bibliomefactory/modules/uima/types.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="8" sofa="1" begin="0" end="1642" language="x-unspecified"/>
+    <types:DocumentProxy xmi:id="13" sofa="1" id="BB-cat+ner-25179651" features="18" sections="24"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Emergence and prevention measures for multidrug resistant Pseudomonas aeruginosa in catheter-associated urinary tract infection in spinal cord injury patients.&#10;To evaluate measures for preventing multidrug resistant Pseudomonas aeruginosa (MDRP) in catheter-associated urinary tract infection (CAUTI) in spinal cord injury patients.&#10;Spinal Cord Injury Unit of Hyogo Prefectural Hyogo Prefectural Rehabilitation Center, Kobe, Japan.&#10;We defined MDRP as resistance to amikacin, imipenem and levofloxacin. We had eight cases of MDRP-causing CAUTI in hospitalized neurogenic bladder patients caused by spinal cord injury in 2 months. Pulse-field gel electrophoresis (PFGE) was performed for epidemiological studies. We assessed prevention measures against MDRP emergence from the 2nd month, such as surveillance of CAUTI and infection control, and evaluated the outcomes of these measures over a total of 8 months.&#10;Our PFGE results showed that these eight MDRP isolates could be considered as closely related strains. We concluded that this was an MDRP outbreak that was causing CAUTI. The isolated ratio of MDRP began to decrease over 4 months of surveillance and significantly decreased in the 4th quarter (7th and 8th months) compared with the 1st quarter (1st and 2nd months) (P=0.021) even though urinary tract device usage significantly increased over the same period (P&lt;0.001).&#10;We experienced an outbreak of emergent MDRP causing CAUTI in neurogenic bladder patients with spinal cord injury. Our preventive measures for isolating the outbreak, including surveillance, may have led to the decrease we observed in the ratio of MDRP isolated.&#10;"/>
+    <types:FeatureProxy xmi:id="18" key="set" value="test"/>
+    <types:SectionProxy xmi:id="24" sofa="1" begin="0" end="1642" name="text" features="" layers="69 87 94" relations="105 193 221"/>
+    <types:LayerProxy xmi:id="69" sofa="1" name="Paragraph" annotations="73"/>
+    <cas:FSArray xmi:id="73" elements="34 41 48 55 62"/>
+    <types:AnnotationProxy xmi:id="34" sofa="1" begin="160" end="332" features=""/>
+    <types:AnnotationProxy xmi:id="41" sofa="1" begin="333" end="431" features=""/>
+    <types:AnnotationProxy xmi:id="48" sofa="1" begin="432" end="909" features=""/>
+    <types:AnnotationProxy xmi:id="55" sofa="1" begin="910" end="1379" features=""/>
+    <types:AnnotationProxy xmi:id="62" sofa="1" begin="1380" end="1641" features=""/>
+    <types:LayerProxy xmi:id="87" sofa="1" name="Title" annotations="91"/>
+    <cas:FSArray xmi:id="91" elements="80"/>
+    <types:AnnotationProxy xmi:id="80" sofa="1" begin="0" end="159" features=""/>
+    <types:LayerProxy xmi:id="94" sofa="1" name="regexp" annotations="98"/>
+    <cas:FSArray xmi:id="98" elements=""/>
+    <types:RelationProxy xmi:id="105" sofa="1" features="110" tuples="116 130 144 158 172" name="Paragraph"/>
+    <types:FeatureProxy xmi:id="110" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="116" sofa="1" features="120 123" arguments="233"/>
+    <types:FeatureProxy xmi:id="120" key="id" value="T4"/>
+    <types:FeatureProxy xmi:id="123" key="type" value="Paragraph"/>
+    <cas:FSArray xmi:id="233" elements="230"/>
+    <types:ArgumentProxy xmi:id="230" role="frag0" argument="48"/>
+    <types:TupleProxy xmi:id="130" sofa="1" features="134 137" arguments="239"/>
+    <types:FeatureProxy xmi:id="134" key="id" value="T5"/>
+    <types:FeatureProxy xmi:id="137" key="type" value="Paragraph"/>
+    <cas:FSArray xmi:id="239" elements="236"/>
+    <types:ArgumentProxy xmi:id="236" role="frag0" argument="55"/>
+    <types:TupleProxy xmi:id="144" sofa="1" features="148 151" arguments="245"/>
+    <types:FeatureProxy xmi:id="148" key="id" value="T6"/>
+    <types:FeatureProxy xmi:id="151" key="type" value="Paragraph"/>
+    <cas:FSArray xmi:id="245" elements="242"/>
+    <types:ArgumentProxy xmi:id="242" role="frag0" argument="62"/>
+    <types:TupleProxy xmi:id="158" sofa="1" features="162 165" arguments="251"/>
+    <types:FeatureProxy xmi:id="162" key="id" value="T2"/>
+    <types:FeatureProxy xmi:id="165" key="type" value="Paragraph"/>
+    <cas:FSArray xmi:id="251" elements="248"/>
+    <types:ArgumentProxy xmi:id="248" role="frag0" argument="34"/>
+    <types:TupleProxy xmi:id="172" sofa="1" features="176 179" arguments="257"/>
+    <types:FeatureProxy xmi:id="176" key="id" value="T3"/>
+    <types:FeatureProxy xmi:id="179" key="type" value="Paragraph"/>
+    <cas:FSArray xmi:id="257" elements="254"/>
+    <types:ArgumentProxy xmi:id="254" role="frag0" argument="41"/>
+    <types:RelationProxy xmi:id="193" sofa="1" features="198" tuples="204" name="Title"/>
+    <types:FeatureProxy xmi:id="198" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="204" sofa="1" features="208 211" arguments="263"/>
+    <types:FeatureProxy xmi:id="208" key="id" value="T1"/>
+    <types:FeatureProxy xmi:id="211" key="type" value="Title"/>
+    <cas:FSArray xmi:id="263" elements="260"/>
+    <types:ArgumentProxy xmi:id="260" role="frag0" argument="80"/>
+    <types:RelationProxy xmi:id="221" sofa="1" features="" tuples="" name="equiv"/>
+    <cas:View sofa="1" members="8 13"/>
+</xmi:XMI>

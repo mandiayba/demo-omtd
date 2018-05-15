@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:types="http:///fr/inra/maiage/bibliome/alvisnlp/bibliomefactory/modules/uima/types.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="8" sofa="1" begin="0" end="2217" language="x-unspecified"/>
+    <types:DocumentProxy xmi:id="13" sofa="1" id="BB-cat+ner-21476570" features="18" sections="24"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Absorption linear dichroism measured directly on a single light-harvesting system: the role of disorder in chlorosomes of green photosynthetic bacteria.&#10;Chlorosomes are light-harvesting antennae of photosynthetic bacteria containing large numbers of self-aggregated bacteriochlorophyll (BChl) molecules. They have developed unique photophysical properties that enable them to absorb light and transfer the excitation energy with very high efficiency. However, the molecular-level organization, that produces the photophysical properties of BChl molecules in the aggregates, is still not fully understood. One of the reasons is heterogeneity in the chlorosome structure which gives rise to a hierarchy of structural and energy disorder. In this report, we for the first time directly measure absorption linear dichroism (LD) on individual, isolated chlorosomes. Together with fluorescence-detected three-dimensional LD, these experiments reveal a large amount of disorder on the single-chlorosome level in the form of distributions of LD observables in chlorosomes from wild-type bacterium Chlorobaculum tepidum . Fluorescence spectral parameters, such as peak wavelength and bandwidth, are measures of the aggregate excitonic properties. These parameters obtained on individual chlorosomes are uncorrelated with the observed LD distributions and indicate that the observed disorder is due to inner structural disorder along the chlorosome long axis. The excitonic disorder that is also present is not manifested in the LD distributions. Limiting values of the LD parameter distributions, which are relatively free of the effect of structural disorder, define a range of angles at which the excitonic dipole moment is oriented with respect to the surface of the two-dimensional aggregate of BChl molecules. Experiments on chlorosomes of a triple mutant of Chlorobaculum tepidum show that the mutant chlorosomes have significantly less inner structural disorder and higher symmetry, compatible with a model of well-ordered concentric cylinders. Different values of the transition dipole moment orientations are consistent with a different molecular level organization of BChl's in the mutant and wild-type chlorosomes.&#10;"/>
+    <types:FeatureProxy xmi:id="18" key="set" value="test"/>
+    <types:SectionProxy xmi:id="24" sofa="1" begin="0" end="2217" name="text" features="" layers="41 55 104" relations="121 149 177"/>
+    <types:LayerProxy xmi:id="41" sofa="1" name="Title" annotations="45"/>
+    <cas:FSArray xmi:id="45" elements="34"/>
+    <types:AnnotationProxy xmi:id="34" sofa="1" begin="0" end="152" features=""/>
+    <types:LayerProxy xmi:id="55" sofa="1" name="Paragraph" annotations="59"/>
+    <cas:FSArray xmi:id="59" elements="48"/>
+    <types:AnnotationProxy xmi:id="48" sofa="1" begin="153" end="2216" features=""/>
+    <types:LayerProxy xmi:id="104" sofa="1" name="regexp" annotations="108"/>
+    <cas:FSArray xmi:id="108" elements="62 69 76 83 90 97"/>
+    <types:AnnotationProxy xmi:id="62" sofa="1" begin="143" end="147" features=""/>
+    <types:AnnotationProxy xmi:id="69" sofa="1" begin="213" end="217" features=""/>
+    <types:AnnotationProxy xmi:id="76" sofa="1" begin="266" end="270" features=""/>
+    <types:AnnotationProxy xmi:id="83" sofa="1" begin="1079" end="1083" features=""/>
+    <types:AnnotationProxy xmi:id="90" sofa="1" begin="1095" end="1098" features=""/>
+    <types:AnnotationProxy xmi:id="97" sofa="1" begin="1861" end="1864" features=""/>
+    <types:RelationProxy xmi:id="121" sofa="1" features="126" tuples="132" name="Title"/>
+    <types:FeatureProxy xmi:id="126" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="132" sofa="1" features="136 139" arguments="189"/>
+    <types:FeatureProxy xmi:id="136" key="id" value="T1"/>
+    <types:FeatureProxy xmi:id="139" key="type" value="Title"/>
+    <cas:FSArray xmi:id="189" elements="186"/>
+    <types:ArgumentProxy xmi:id="186" role="frag0" argument="34"/>
+    <types:RelationProxy xmi:id="149" sofa="1" features="154" tuples="160" name="Paragraph"/>
+    <types:FeatureProxy xmi:id="154" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="160" sofa="1" features="164 167" arguments="195"/>
+    <types:FeatureProxy xmi:id="164" key="id" value="T2"/>
+    <types:FeatureProxy xmi:id="167" key="type" value="Paragraph"/>
+    <cas:FSArray xmi:id="195" elements="192"/>
+    <types:ArgumentProxy xmi:id="192" role="frag0" argument="48"/>
+    <types:RelationProxy xmi:id="177" sofa="1" features="" tuples="" name="equiv"/>
+    <cas:View sofa="1" members="8 13"/>
+</xmi:XMI>

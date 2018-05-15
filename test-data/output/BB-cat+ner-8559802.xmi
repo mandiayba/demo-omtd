@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:types="http:///fr/inra/maiage/bibliome/alvisnlp/bibliomefactory/modules/uima/types.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="8" sofa="1" begin="0" end="987" language="x-unspecified"/>
+    <types:DocumentProxy xmi:id="13" sofa="1" id="BB-cat+ner-8559802" features="18" sections="24"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Construction of a cloning vector from a naturally occurring plasmid of Salmonella typhimurium.&#10;A naturally occurring plasmid isolated from a drug-resistant strain of Salmonella typhimurium (993) has been used to construct a plasmid vector for cloning in a wild strain of Salmonella. The strain (993) contains at least two plasmids. The smaller plasmid (9 kb) contains an ampicillin-resistant marker, while the larger one (25 kb) is cryptic. Physical mapping of the 9-kb plasmid and construction of a 3.5-kb derivative have been carried out. This plasmid has been used for cloning in a restriction+modification+strain of S. typhimurium using a conventional calcium chloride method. It exhibited better efficiency of transformation than other commonly used plasmids such as pBR322 or its derivatives and transformants were found to be stable in the absence of antibiotic selection. The vector is compatible with pBR322 and can be used to study the expression of cloned genes in minicells.&#10;"/>
+    <types:FeatureProxy xmi:id="18" key="set" value="dev"/>
+    <types:SectionProxy xmi:id="24" sofa="1" begin="0" end="987" name="text" features="" layers="69 87 101 108" relations="120 228 256 284"/>
+    <types:LayerProxy xmi:id="69" sofa="1" name="Bacteria" annotations="73"/>
+    <cas:FSArray xmi:id="73" elements="34 41 48 55 62"/>
+    <types:AnnotationProxy xmi:id="34" sofa="1" begin="71" end="93" features=""/>
+    <types:AnnotationProxy xmi:id="41" sofa="1" begin="166" end="194" features=""/>
+    <types:AnnotationProxy xmi:id="48" sofa="1" begin="271" end="281" features=""/>
+    <types:AnnotationProxy xmi:id="55" sofa="1" begin="294" end="299" features=""/>
+    <types:AnnotationProxy xmi:id="62" sofa="1" begin="620" end="634" features=""/>
+    <types:LayerProxy xmi:id="87" sofa="1" name="Title" annotations="91"/>
+    <cas:FSArray xmi:id="91" elements="80"/>
+    <types:AnnotationProxy xmi:id="80" sofa="1" begin="0" end="94" features=""/>
+    <types:LayerProxy xmi:id="101" sofa="1" name="Paragraph" annotations="105"/>
+    <cas:FSArray xmi:id="105" elements="94"/>
+    <types:AnnotationProxy xmi:id="94" sofa="1" begin="95" end="986" features=""/>
+    <types:LayerProxy xmi:id="108" sofa="1" name="regexp" annotations="112"/>
+    <cas:FSArray xmi:id="112" elements=""/>
+    <types:RelationProxy xmi:id="120" sofa="1" features="125" tuples="131 149 167 185 203" name="Bacteria"/>
+    <types:FeatureProxy xmi:id="125" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="131" sofa="1" features="135 138 141" arguments="296"/>
+    <types:FeatureProxy xmi:id="135" key="id" value="T4"/>
+    <types:FeatureProxy xmi:id="138" key="type" value="Bacteria"/>
+    <types:FeatureProxy xmi:id="141" key="NCBI_Taxonomy" value="90371"/>
+    <cas:FSArray xmi:id="296" elements="293"/>
+    <types:ArgumentProxy xmi:id="293" role="frag0" argument="41"/>
+    <types:TupleProxy xmi:id="149" sofa="1" features="153 156 159" arguments="302"/>
+    <types:FeatureProxy xmi:id="153" key="id" value="T5"/>
+    <types:FeatureProxy xmi:id="156" key="type" value="Bacteria"/>
+    <types:FeatureProxy xmi:id="159" key="NCBI_Taxonomy" value="590"/>
+    <cas:FSArray xmi:id="302" elements="299"/>
+    <types:ArgumentProxy xmi:id="299" role="frag0" argument="48"/>
+    <types:TupleProxy xmi:id="167" sofa="1" features="171 174 177" arguments="308"/>
+    <types:FeatureProxy xmi:id="171" key="id" value="T6"/>
+    <types:FeatureProxy xmi:id="174" key="type" value="Bacteria"/>
+    <types:FeatureProxy xmi:id="177" key="NCBI_Taxonomy" value="90371"/>
+    <cas:FSArray xmi:id="308" elements="305"/>
+    <types:ArgumentProxy xmi:id="305" role="frag0" argument="55"/>
+    <types:TupleProxy xmi:id="185" sofa="1" features="189 192 195" arguments="314"/>
+    <types:FeatureProxy xmi:id="189" key="id" value="T7"/>
+    <types:FeatureProxy xmi:id="192" key="type" value="Bacteria"/>
+    <types:FeatureProxy xmi:id="195" key="NCBI_Taxonomy" value="90371"/>
+    <cas:FSArray xmi:id="314" elements="311"/>
+    <types:ArgumentProxy xmi:id="311" role="frag0" argument="62"/>
+    <types:TupleProxy xmi:id="203" sofa="1" features="207 210 213" arguments="320"/>
+    <types:FeatureProxy xmi:id="207" key="id" value="T3"/>
+    <types:FeatureProxy xmi:id="210" key="type" value="Bacteria"/>
+    <types:FeatureProxy xmi:id="213" key="NCBI_Taxonomy" value="90371"/>
+    <cas:FSArray xmi:id="320" elements="317"/>
+    <types:ArgumentProxy xmi:id="317" role="frag0" argument="34"/>
+    <types:RelationProxy xmi:id="228" sofa="1" features="233" tuples="239" name="Title"/>
+    <types:FeatureProxy xmi:id="233" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="239" sofa="1" features="243 246" arguments="326"/>
+    <types:FeatureProxy xmi:id="243" key="id" value="T1"/>
+    <types:FeatureProxy xmi:id="246" key="type" value="Title"/>
+    <cas:FSArray xmi:id="326" elements="323"/>
+    <types:ArgumentProxy xmi:id="323" role="frag0" argument="80"/>
+    <types:RelationProxy xmi:id="256" sofa="1" features="261" tuples="267" name="Paragraph"/>
+    <types:FeatureProxy xmi:id="261" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="267" sofa="1" features="271 274" arguments="332"/>
+    <types:FeatureProxy xmi:id="271" key="id" value="T2"/>
+    <types:FeatureProxy xmi:id="274" key="type" value="Paragraph"/>
+    <cas:FSArray xmi:id="332" elements="329"/>
+    <types:ArgumentProxy xmi:id="329" role="frag0" argument="94"/>
+    <types:RelationProxy xmi:id="284" sofa="1" features="" tuples="" name="equiv"/>
+    <cas:View sofa="1" members="8 13"/>
+</xmi:XMI>

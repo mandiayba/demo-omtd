@@ -1,0 +1,9 @@
+#FROM maven:3.2-jdk-7-onbuild
+#FROM bibliome/alvisengine:2.1.1 old xmi-support
+#FROM bibliome/alvisengine:xmi-support 
+FROM bibliome/alvisengine
+MAINTAINER Mouhamadou Ba <mouhamadou.ba@inra.fr>
+
+WORKDIR /alvisnlp
+
+COPY plans/ /alvisnlp/

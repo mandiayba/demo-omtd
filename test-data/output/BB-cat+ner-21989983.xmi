@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:types="http:///fr/inra/maiage/bibliome/alvisnlp/bibliomefactory/modules/uima/types.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="8" sofa="1" begin="0" end="989" language="x-unspecified"/>
+    <types:DocumentProxy xmi:id="13" sofa="1" id="BB-cat+ner-21989983" features="18" sections="24"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Insights into Acinetobacter baumannii pathogenicity.&#10;Acinetobacter spp. have justifiably received significant attention from the public, scientific, and medical communities. Over recent years, Acinetobacter, particularly Acinetobacter baumannii, has become a &quot;red-alert&quot; human pathogen, primarily because of its exceptional ability to develop resistance to all currently available antibiotics. This characteristic is compounded by its unique abilities to survive in a diverse range of environments, including those within healthcare institutions, leading to problematic outbreaks. Historically, the virulence of the organism has been questioned, but recent clinical reports suggest that Acinetobacter can cause serious, life-threatening infections. Furthermore, its metabolic adaptability gives it a selective advantage in harsh hospital environments. This review focuses on current understanding of A. baumannii pathogenesis and the model systems used to study this interesting organism.&#10;"/>
+    <types:FeatureProxy xmi:id="18" key="set" value="test"/>
+    <types:SectionProxy xmi:id="24" sofa="1" begin="0" end="989" name="text" features="" layers="41 55 97" relations="113 141 169"/>
+    <types:LayerProxy xmi:id="41" sofa="1" name="Title" annotations="45"/>
+    <cas:FSArray xmi:id="45" elements="34"/>
+    <types:AnnotationProxy xmi:id="34" sofa="1" begin="0" end="52" features=""/>
+    <types:LayerProxy xmi:id="55" sofa="1" name="Paragraph" annotations="59"/>
+    <cas:FSArray xmi:id="59" elements="48"/>
+    <types:AnnotationProxy xmi:id="48" sofa="1" begin="53" end="988" features=""/>
+    <types:LayerProxy xmi:id="97" sofa="1" name="regexp" annotations="101"/>
+    <cas:FSArray xmi:id="101" elements="62 69 76 83 90"/>
+    <types:AnnotationProxy xmi:id="62" sofa="1" begin="21" end="25" features=""/>
+    <types:AnnotationProxy xmi:id="69" sofa="1" begin="60" end="64" features=""/>
+    <types:AnnotationProxy xmi:id="76" sofa="1" begin="200" end="204" features=""/>
+    <types:AnnotationProxy xmi:id="83" sofa="1" begin="228" end="232" features=""/>
+    <types:AnnotationProxy xmi:id="90" sofa="1" begin="694" end="698" features=""/>
+    <types:RelationProxy xmi:id="113" sofa="1" features="118" tuples="124" name="Title"/>
+    <types:FeatureProxy xmi:id="118" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="124" sofa="1" features="128 131" arguments="181"/>
+    <types:FeatureProxy xmi:id="128" key="id" value="T1"/>
+    <types:FeatureProxy xmi:id="131" key="type" value="Title"/>
+    <cas:FSArray xmi:id="181" elements="178"/>
+    <types:ArgumentProxy xmi:id="178" role="frag0" argument="34"/>
+    <types:RelationProxy xmi:id="141" sofa="1" features="146" tuples="152" name="Paragraph"/>
+    <types:FeatureProxy xmi:id="146" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="152" sofa="1" features="156 159" arguments="187"/>
+    <types:FeatureProxy xmi:id="156" key="id" value="T2"/>
+    <types:FeatureProxy xmi:id="159" key="type" value="Paragraph"/>
+    <cas:FSArray xmi:id="187" elements="184"/>
+    <types:ArgumentProxy xmi:id="184" role="frag0" argument="48"/>
+    <types:RelationProxy xmi:id="169" sofa="1" features="" tuples="" name="equiv"/>
+    <cas:View sofa="1" members="8 13"/>
+</xmi:XMI>

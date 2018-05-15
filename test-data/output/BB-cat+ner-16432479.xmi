@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:types="http:///fr/inra/maiage/bibliome/alvisnlp/bibliomefactory/modules/uima/types.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="8" sofa="1" begin="0" end="1552" language="x-unspecified"/>
+    <types:DocumentProxy xmi:id="13" sofa="1" id="BB-cat+ner-16432479" features="18" sections="24"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Challenges in the control of gonorrhea in South America and the Caribbean: monitoring the development of resistance to antibiotics.&#10;: The objective of this study was to ascertain the antimicrobial susceptibility of Neisseria gonorrhoeae isolates from 6 South American and 13 Caribbean countries participating in the Gonococcal Antimicrobial Surveillance Program (GASP) from 1990 to 1999.&#10;: A GASP network of laboratories was launched in the Americas and the Caribbean during the 1990s. Standardized methods and interpretative criteria were established for the isolation of N. gonorrhoeae, strain identification, and determination, and quality control of antimicrobial susceptibility.&#10;: Two countries (Argentina and Uruguay) maintained continuous surveillance during the study period. Some countries gathered data periodically and several others were unable to initiate antimicrobial surveillance as a result of lack of resources. The percentage of penicillin-resistant N. gonorrhoeae isolated in the region over the decade varied considerably (1.0-11.9% carried chromosomal resistance and 17.9-38.8% produced beta-lactamase) with an overall trend to declining numbers of penicillin-resistant isolates. For tetracycline, 7.4% to 36.3% carried chromosomal resistance, whereas 12.0% to 27.4% carried plasmid-mediated resistance. There were no reports of ciprofloxacin-resistant isolates, although N. gonorrhoeae with decreased susceptibility to ciprofloxacin and azithromycin as well as spectinomycin-resistant isolates were identified in some countries.&#10;"/>
+    <types:FeatureProxy xmi:id="18" key="set" value="train"/>
+    <types:SectionProxy xmi:id="24" sofa="1" begin="0" end="1552" name="text" features="" layers="55 92 109 123 130" relations="143 201 290 322 350"/>
+    <types:LayerProxy xmi:id="55" sofa="1" name="Paragraph" annotations="59"/>
+    <cas:FSArray xmi:id="59" elements="34 41 48"/>
+    <types:AnnotationProxy xmi:id="34" sofa="1" begin="132" end="387" features=""/>
+    <types:AnnotationProxy xmi:id="41" sofa="1" begin="388" end="683" features=""/>
+    <types:AnnotationProxy xmi:id="48" sofa="1" begin="684" end="1551" features=""/>
+    <types:LayerProxy xmi:id="92" sofa="1" name="Bacteria" annotations="96"/>
+    <cas:FSArray xmi:id="96" elements="64 71 78 85"/>
+    <types:AnnotationProxy xmi:id="64" sofa="1" begin="215" end="236" features=""/>
+    <types:AnnotationProxy xmi:id="71" sofa="1" begin="573" end="587" features=""/>
+    <types:AnnotationProxy xmi:id="78" sofa="1" begin="969" end="983" features=""/>
+    <types:AnnotationProxy xmi:id="85" sofa="1" begin="1394" end="1408" features=""/>
+    <types:LayerProxy xmi:id="109" sofa="1" name="Habitat" annotations="113"/>
+    <cas:FSArray xmi:id="113" elements="102"/>
+    <types:AnnotationProxy xmi:id="102" sofa="1" begin="408" end="420" features=""/>
+    <types:LayerProxy xmi:id="123" sofa="1" name="Title" annotations="127"/>
+    <cas:FSArray xmi:id="127" elements="116"/>
+    <types:AnnotationProxy xmi:id="116" sofa="1" begin="0" end="131" features=""/>
+    <types:LayerProxy xmi:id="130" sofa="1" name="regexp" annotations="134"/>
+    <cas:FSArray xmi:id="134" elements=""/>
+    <types:RelationProxy xmi:id="143" sofa="1" features="148" tuples="154 168 182" name="Paragraph"/>
+    <types:FeatureProxy xmi:id="148" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="154" sofa="1" features="158 161" arguments="362"/>
+    <types:FeatureProxy xmi:id="158" key="id" value="T4"/>
+    <types:FeatureProxy xmi:id="161" key="type" value="Paragraph"/>
+    <cas:FSArray xmi:id="362" elements="359"/>
+    <types:ArgumentProxy xmi:id="359" role="frag0" argument="48"/>
+    <types:TupleProxy xmi:id="168" sofa="1" features="172 175" arguments="368"/>
+    <types:FeatureProxy xmi:id="172" key="id" value="T2"/>
+    <types:FeatureProxy xmi:id="175" key="type" value="Paragraph"/>
+    <cas:FSArray xmi:id="368" elements="365"/>
+    <types:ArgumentProxy xmi:id="365" role="frag0" argument="34"/>
+    <types:TupleProxy xmi:id="182" sofa="1" features="186 189" arguments="374"/>
+    <types:FeatureProxy xmi:id="186" key="id" value="T3"/>
+    <types:FeatureProxy xmi:id="189" key="type" value="Paragraph"/>
+    <cas:FSArray xmi:id="374" elements="371"/>
+    <types:ArgumentProxy xmi:id="371" role="frag0" argument="41"/>
+    <types:RelationProxy xmi:id="201" sofa="1" features="206" tuples="212 230 248 266" name="Bacteria"/>
+    <types:FeatureProxy xmi:id="206" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="212" sofa="1" features="216 219 222" arguments="380"/>
+    <types:FeatureProxy xmi:id="216" key="id" value="T5"/>
+    <types:FeatureProxy xmi:id="219" key="type" value="Bacteria"/>
+    <types:FeatureProxy xmi:id="222" key="NCBI_Taxonomy" value="485"/>
+    <cas:FSArray xmi:id="380" elements="377"/>
+    <types:ArgumentProxy xmi:id="377" role="frag0" argument="64"/>
+    <types:TupleProxy xmi:id="230" sofa="1" features="234 237 240" arguments="386"/>
+    <types:FeatureProxy xmi:id="234" key="id" value="T7"/>
+    <types:FeatureProxy xmi:id="237" key="type" value="Bacteria"/>
+    <types:FeatureProxy xmi:id="240" key="NCBI_Taxonomy" value="485"/>
+    <cas:FSArray xmi:id="386" elements="383"/>
+    <types:ArgumentProxy xmi:id="383" role="frag0" argument="71"/>
+    <types:TupleProxy xmi:id="248" sofa="1" features="252 255 258" arguments="392"/>
+    <types:FeatureProxy xmi:id="252" key="id" value="T8"/>
+    <types:FeatureProxy xmi:id="255" key="type" value="Bacteria"/>
+    <types:FeatureProxy xmi:id="258" key="NCBI_Taxonomy" value="485"/>
+    <cas:FSArray xmi:id="392" elements="389"/>
+    <types:ArgumentProxy xmi:id="389" role="frag0" argument="78"/>
+    <types:TupleProxy xmi:id="266" sofa="1" features="270 273 276" arguments="398"/>
+    <types:FeatureProxy xmi:id="270" key="id" value="T9"/>
+    <types:FeatureProxy xmi:id="273" key="type" value="Bacteria"/>
+    <types:FeatureProxy xmi:id="276" key="NCBI_Taxonomy" value="485"/>
+    <cas:FSArray xmi:id="398" elements="395"/>
+    <types:ArgumentProxy xmi:id="395" role="frag0" argument="85"/>
+    <types:RelationProxy xmi:id="290" sofa="1" features="295" tuples="301" name="Habitat"/>
+    <types:FeatureProxy xmi:id="295" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="301" sofa="1" features="305 308 311" arguments="404"/>
+    <types:FeatureProxy xmi:id="305" key="id" value="T6"/>
+    <types:FeatureProxy xmi:id="308" key="type" value="Habitat"/>
+    <types:FeatureProxy xmi:id="311" key="OntoBiotope" value="OBT:000609"/>
+    <cas:FSArray xmi:id="404" elements="401"/>
+    <types:ArgumentProxy xmi:id="401" role="frag0" argument="102"/>
+    <types:RelationProxy xmi:id="322" sofa="1" features="327" tuples="333" name="Title"/>
+    <types:FeatureProxy xmi:id="327" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="333" sofa="1" features="337 340" arguments="410"/>
+    <types:FeatureProxy xmi:id="337" key="id" value="T1"/>
+    <types:FeatureProxy xmi:id="340" key="type" value="Title"/>
+    <cas:FSArray xmi:id="410" elements="407"/>
+    <types:ArgumentProxy xmi:id="407" role="frag0" argument="116"/>
+    <types:RelationProxy xmi:id="350" sofa="1" features="" tuples="" name="equiv"/>
+    <cas:View sofa="1" members="8 13"/>
+</xmi:XMI>

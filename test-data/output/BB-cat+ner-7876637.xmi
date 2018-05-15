@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:types="http:///fr/inra/maiage/bibliome/alvisnlp/bibliomefactory/modules/uima/types.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="8" sofa="1" begin="0" end="45" language="x-unspecified"/>
+    <types:DocumentProxy xmi:id="13" sofa="1" id="BB-cat+ner-7876637" features="18" sections="24"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="The spread of Vibrio cholerae O139 in India.&#10;"/>
+    <types:FeatureProxy xmi:id="18" key="set" value="test"/>
+    <types:SectionProxy xmi:id="24" sofa="1" begin="0" end="45" name="text" features="" layers="41 48" relations="58 86"/>
+    <types:LayerProxy xmi:id="41" sofa="1" name="Title" annotations="45"/>
+    <cas:FSArray xmi:id="45" elements="34"/>
+    <types:AnnotationProxy xmi:id="34" sofa="1" begin="0" end="44" features=""/>
+    <types:LayerProxy xmi:id="48" sofa="1" name="regexp" annotations="52"/>
+    <cas:FSArray xmi:id="52" elements=""/>
+    <types:RelationProxy xmi:id="58" sofa="1" features="63" tuples="69" name="Title"/>
+    <types:FeatureProxy xmi:id="63" key="kind" value="text"/>
+    <types:TupleProxy xmi:id="69" sofa="1" features="73 76" arguments="98"/>
+    <types:FeatureProxy xmi:id="73" key="id" value="T1"/>
+    <types:FeatureProxy xmi:id="76" key="type" value="Title"/>
+    <cas:FSArray xmi:id="98" elements="95"/>
+    <types:ArgumentProxy xmi:id="95" role="frag0" argument="34"/>
+    <types:RelationProxy xmi:id="86" sofa="1" features="" tuples="" name="equiv"/>
+    <cas:View sofa="1" members="8 13"/>
+</xmi:XMI>
